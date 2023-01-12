@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.8.1)
+    monri (0.1.0)
+    nio4r (2.5.8)
+    puma (6.0.2)
+      nio4r (~> 2.0)
+    rack (1.5.5)
+    rake (10.3.2)
+    rakeup (1.2.0)
+      rack (~> 1.5.0)
+      rake (~> 10.3.0)
+    roda (3.63.0)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  dotenv
+  monri
+  puma
+  rakeup
+  roda
+
+BUNDLED WITH
+   1.17.3
